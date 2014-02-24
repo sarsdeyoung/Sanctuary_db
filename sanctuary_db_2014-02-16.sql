@@ -120,7 +120,7 @@ LOCK TABLES `wp_options` WRITE;
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`)
 VALUES
-	(1,'siteurl','http://localhost:8888/sanctuary','yes'),
+	(1,'siteurl','sanctuary.thedeyoungs.com','yes'),
 	(2,'blogname','Sanctuary','yes'),
 	(3,'blogdescription','Just another WordPress site','yes'),
 	(4,'users_can_register','0','yes'),
@@ -155,7 +155,7 @@ VALUES
 	(33,'blog_charset','UTF-8','yes'),
 	(34,'moderation_keys','','no'),
 	(35,'active_plugins','a:1:{i:0;s:30:\"advanced-custom-fields/acf.php\";}','yes'),
-	(36,'home','http://localhost:8888/sanctuary','yes'),
+	(36,'home','sanctuary.thedeyoungs.com','yes'),
 	(37,'category_base','','yes'),
 	(38,'ping_sites','http://rpc.pingomatic.com/','yes'),
 	(39,'advanced_edit','0','yes'),
@@ -335,9 +335,9 @@ LOCK TABLES `wp_posts` WRITE;
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`)
 VALUES
-	(1,1,'2014-02-16 17:37:25','2014-02-16 17:37:25','Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!','Hello world!','','publish','open','open','','hello-world','','','2014-02-16 17:37:25','2014-02-16 17:37:25','',0,'http://localhost:8888/sanctuary/?p=1',0,'post','',1),
-	(2,1,'2014-02-16 17:37:25','2014-02-16 17:37:25','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"http://localhost:8888/sanctuary/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','publish','open','open','','sample-page','','','2014-02-16 17:37:25','2014-02-16 17:37:25','',0,'http://localhost:8888/sanctuary/?page_id=2',0,'page','',0),
-	(3,1,'2014-02-16 17:37:41','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2014-02-16 17:37:41','0000-00-00 00:00:00','',0,'http://localhost:8888/sanctuary/?p=3',0,'post','',0);
+	(1,1,'2014-02-16 17:37:25','2014-02-16 17:37:25','Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!','Hello world!','','publish','open','open','','hello-world','','','2014-02-16 17:37:25','2014-02-16 17:37:25','',0,'sanctuary.thedeyoungs.com/?p=1',0,'post','',1),
+	(2,1,'2014-02-16 17:37:25','2014-02-16 17:37:25','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"sanctuary.thedeyoungs.com/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','publish','open','open','','sample-page','','','2014-02-16 17:37:25','2014-02-16 17:37:25','',0,'sanctuary.thedeyoungs.com/?page_id=2',0,'page','',0),
+	(3,1,'2014-02-16 17:37:41','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2014-02-16 17:37:41','0000-00-00 00:00:00','',0,'sanctuary.thedeyoungs.com/?p=3',0,'post','',0);
 
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
